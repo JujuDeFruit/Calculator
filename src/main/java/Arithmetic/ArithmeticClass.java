@@ -30,6 +30,62 @@ public class ArithmeticClass {
 	private String ans;
 	
 	/**
+	 * Getter instructions attribute.
+	 */
+	public List<String> getInstructions() {
+		return instructions;
+	}
+
+	/**
+	 * Setter instructions attribute.
+	 */
+	public void setInstructions(List<String> instructions) {
+		this.instructions = instructions;
+	}
+
+	/**
+	 * Getter idxBegin attribute.
+	 */
+	public List<Integer> getIdxBegin() {
+		return idxBegin;
+	}
+
+	/**
+	 * Setter idxBegin attribute.
+	 */
+	public void setIdxBegin(List<Integer> idxBegin) {
+		this.idxBegin = idxBegin;
+	}
+
+	/**
+	 * Getter idxEnd attribute.
+	 */
+	public List<Integer> getIdxEnd() {
+		return idxEnd;
+	}
+	
+	/**
+	 * Setter idxEnd attribute.
+	 */
+	public void setIdxEnd(List<Integer> idxEnd) {
+		this.idxEnd = idxEnd;
+	}
+
+	/**
+	 * Getter ans attribute.
+	 */
+	public String getAns() {
+		return ans;
+	}
+
+	/**
+	 * Setter ans attribute.
+	 */
+	public void setAns(String ans) {
+		this.ans = ans;
+	}
+	
+	/**
 	 * Constructor
 	 * Initialize list of instructions parameter, and indexes lists. 
 	 */
@@ -91,6 +147,7 @@ public class ArithmeticClass {
 		}	
 	}
 	
+
 	/**
 	 * Method to perform the final result of operation written by user. This method is called when user click on '=' button.
 	 * @return final result.
